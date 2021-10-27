@@ -19,24 +19,30 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="contact">
             <h1>Contact us</h1>
             <form>
-                <fieldset>
-                    <legend>CONTACT</legend>
-                    <input class="form-input" placeholder="Full name" type="text" id="name">
-                    <input class="form-input" placeholder="Email" type="email" id="email">
-                    <select class="form-input" name="Guitar" id="select-product">
-                        <option value="product-one">Rock n roll</option>
-                        <option value="product-two">Rock n roll</option>
-                        <option value="product-three">Rock n roll</option>
-                    </select>
-                    <input class="form-input" type="text" id="message" placeholder="Your message">
-                    <input class="form-checkbox" type="checkbox" id="sign-up">
-                    <label class="form-checkbox" for="sign-up">Sign up for our newsletter</label>
-                    <button class="form-input" type="submit">Send</button>
-                </fieldset>
-
+                <div class="form-wrapper">
+                    <section>
+                        <input class="form-input" placeholder="Full name" type="text" id="name">
+                        <input class="form-input" placeholder="Email" type="email" id="email">
+                        <select class="form-input" name="Guitar" id="select-product">
+                            <option value="product-one">Rock n roll</option>
+                            <option value="product-two">Rock n roll</option>
+                            <option value="product-three">Rock n roll</option>
+                        </select>
+                        <div>
+                            <input class="form-checkbox" type="checkbox" id="sign-up">
+                        <label class="form-checkbox" for="sign-up">Sign up for our newsletter</label>
+                        </div>
+                    </section>
+                    <section>
+                        <input class="form-input" type="text" id="message" placeholder="Your message">
+                    </section>
+                </div>
+                <div>
+                    <input class="cta-sale" value="SEND NOW" type="submit"></input>
+                </div> 
             </form>
         </main>
         <footer>
