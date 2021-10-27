@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Boots And Spurs";
+    src: url("fonts/BootsAndSpurs.ttf") format("truetype");
+  }
+
+body, h2, h3 {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product-list {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo, h1, h2 {
+    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+header, footer {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    min-height: 100px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.current {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.selling-point {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+  }
+  
+  .selling-point > * {
+    flex: 1;
+  }
+
+.reviews {
+    background-color: rgb(172, 172, 172);
+}
+
+.featured-products {
+    background-color: rgb(235, 235, 235);
+}
+
+.CTA {
+background-color: rgb(194, 0, 0);
+border-radius: 3px;
+color: white;
+font-size: 1.5rem;
+text-decoration: none;
+}
+
+.cta-sale {
+    background-color: rgb(175, 0, 0);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.cta-view {
+    background-color: seagreen;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.CTA, .cta-sale, .cta-view {
+    padding: 10px 100px;
+    display: inline-block;
+}
+
+.review-img {
+    border-radius: 50%;
+}
+
+.welcome {
+    background-image: url('images/home-header.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 90vh;
+    position: relative;
+}
+
+.welcome-content {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 100px;
+}
+
+.sellingpoint-img {
+    border-radius: 50px;
+}
+
+.form-input {
+    display: block;
+}
+
+.form-checkbox {
+    display: inline-block;
+}
+
+
+
